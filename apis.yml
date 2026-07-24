@@ -1,8 +1,27 @@
 aid: collabra
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/collabra.png
 name: Collabra
-description: 'Collabra is a company surfaced as a portfolio company of kleiner-perkins and added to the
-  API Evangelist network as a stub for enrichment. Sector: enterprise. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Collabra (Collabra Pty Ltd, ABN 35 672 933 818) is an Australian enterprise
+  AI automation company whose platform combines robotic process automation with large
+  language models to run back-office operations — contract review, revenue assurance,
+  financial operations, vendor management, data processing, and compliance monitoring.
+  Its product suite is CollabraCore (isolated, segmented data-protection workspaces),
+  CollabraGuard (an AI-safety layer that constrains LLM output to prevent hallucinations
+  and errors while logging every action), and CollabraFlow (a rapid build-test-deploy
+  environment for automation workflows). The public tagline is "AI you can trust to
+  run your operations". As of this profile Collabra is a demo-led SaaS with no public
+  developer API, SDK, or documentation surface.'
 url: https://raw.githubusercontent.com/api-evangelist/collabra/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,15 +29,42 @@ x-backed-by:
 - kleiner-perkins
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-enrichment-note: 'Website identified and verified as https://collabra.ai (Collabra
+  Pty Ltd, Australia). No public API/developer surface found — no docs host, API reference,
+  SDKs, OpenAPI, MCP, or GitHub org — so no API artifacts were generated (no fabrication).
+  Kleiner Perkins backing was NOT independently confirmed against the KP portfolio page.'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Enterprise
+- Automation
+- Artificial Intelligence
+- RPA
+- Compliance
+- Back Office
+- SaaS
+- Australia
 apis: []
+common:
+- type: DomainSecurity
+  url: security/collabra-domain-security.yml
+- type: Website
+  url: https://collabra.ai
+- type: TermsOfService
+  url: https://collabra.ai/legals/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://collabra.ai/legals/privacy-policy
+- type: Support
+  url: https://collabra.ai/contact
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
