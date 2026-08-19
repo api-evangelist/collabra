@@ -33,7 +33,7 @@ x-enrichment-note: 'Website identified and verified as https://collabra.ai (Coll
   Pty Ltd, Australia). No public API/developer surface found — no docs host, API reference,
   SDKs, OpenAPI, MCP, or GitHub org — so no API artifacts were generated (no fabrication).
   Kleiner Perkins backing was NOT independently confirmed against the KP portfolio page.'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-18'
 tags:
